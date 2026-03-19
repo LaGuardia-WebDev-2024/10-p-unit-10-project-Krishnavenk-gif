@@ -1,28 +1,39 @@
-var bakeryLabels = ["Crossiants","Baguettes"];
+
 
 setup = function() {
 
   size(400, 400); 
-  background(0,0,0,0);
+  background(255,255,247,0);
 
-  var crossiantX = 60;
-  textSize(30);
+  var ratX =60;
+  textSize(15);
 
-  while(crossiantX < 300){
-    text("🥐", crossiantX, 85);
-    crossiantX += 40;
+
+
+
+
+
+for (var x=0; x<400; x+=20){
+ text("🥩🍗🥓🥩🍖", x, 20);
+   
+}
+
+
+  while(ratX < 300){
+    text("🐁", ratX, 400);
+    ratX += 40;
   }
 
-  textSize(15);
-  text(bakeryLabels[0], 70, 105);
-  text(bakeryLabels[1], 70, 185);
 }
 
 draw = function(){   
 
 }
 
+//if(mousePressed){
+//text("meat",random(0,600), random(0,400));
 
-mouseClicked = function(){
 
-}
+
+
+

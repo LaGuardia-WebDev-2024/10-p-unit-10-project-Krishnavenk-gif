@@ -16,15 +16,9 @@ html{
 
 #myCanvas1 {
   border: 1px solid black;
-  background-image: url("supermarket-interior-shelf_165488-3982.avif");
+  background-image: url("https://media.istockphoto.com/id/1131001635/vector/butcher-man-at-meat-store-showcase-with-ham.jpg?s=612x612&w=0&k=20&c=fZBo2LTN43V89C3es46xMXdv5SScuMcZzQcnNwnmgqY=");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-#myCanvas2 {
-  border: 1px solid black;
-  border-radius: 30px;
-}
-
 
